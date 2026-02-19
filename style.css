@@ -1,0 +1,55 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
+/* Profile Image */
+.profile-img {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #ffc107;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+    animation: float 4s ease-in-out infinite;
+}
+
+/* Floating Animation */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+/* Buttons */
+.btn {
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+/* Cards */
+.card {
+    transition: 0.4s ease;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background: linear-gradient(to right, #eae48d, #000000);
+    color: #ffffff;
+}
+
+/* Navbar shadow */
+.navbar {
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
+
